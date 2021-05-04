@@ -1,0 +1,77 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css');
+
+.copy--primary {
+  color: blueviolet ;
+}
+
+.body {
+  background:blueviolet;
+}
+
+.navbar__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:3 rem;
+}
+
+.logo {
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1ch;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  width: 300px;
+  background: #fff;
+  padding: 50rem 60rem;
+}
+
+.navbar__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 2rem;
+  list-style:none;
+}
+
+.navbar__links a{
+  text-decoration: none;
+  justify-self: end;
+}
+
+.card__container {
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow:3px 3px 10px;
+  width: 800px;
+}
+
+.photograf {
+  width: 300px;
+  height: 70px;
+  border:3px solid #000;
+  border-radius: 10px;
+  padding:10px;
+  resize:both;
+  overflow: hidden;
+}
+
+.photograf__backgroud {
+  width: 100%;
+  height: 100%;
+}
+.information {
+
+}
+
+.footer {
+  color:white;
+  text-align: center;
+  font-size: italic;
+}

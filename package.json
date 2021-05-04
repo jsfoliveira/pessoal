@@ -1,0 +1,27 @@
+{
+  "name": "paginapessoal",
+  "version": "1.0.0",
+  "description": "Pagina Perfil Profissional e Pessoal",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfoliveira/pessoal.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Juliana Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsfoliveira/pessoal.git"
+  },
+  "homepage": "https://github.com/jsfoliveira/pessoal.git",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
